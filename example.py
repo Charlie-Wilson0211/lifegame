@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import os
 import time
+import numpy as np
 from lifegame import lifegame
 
 
