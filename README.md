@@ -1,10 +1,11 @@
 # Life Game
 
-This is  a class for lifegame based on python, and the generation is available if you has define the initial state.
+This is  a class for lifegame based on python, and the generation is available if you has define the initial state with numpy.
 
 for example, you have define a initial state:
 
 ```
+import numpy as np
 ground=np.random.random((10,10))>=0.5
 ground.astype(int)
 ```
