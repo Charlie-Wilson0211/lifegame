@@ -1,7 +1,3 @@
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.animation as animation
-
 class lifegame():
     def __init__(self,ground):
         self.begin = ground
